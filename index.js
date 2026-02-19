@@ -19,7 +19,7 @@ fetch(url)
             <ul>
                 ${places.facilities.map(facility => `<li>${facility}</li>`).join('')}
             </ul>
-            <a href="detaljer.html${places.id}"> se her for detaljer</a>
+            <a href="detaljer.html?id=${places.id}">Se her for detaljer</a>
         </div>
     `;
             placeId.insertAdjacentHTML("afterbegin", destinationString);
