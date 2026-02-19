@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.ferie h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+    font-size: 10rem;
+}
+
+.destinations {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.spain {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.spain img {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.spain h3 {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 2rem;
+    text-align: start;
+    margin-bottom: 20px;
+
+}
+
+.spain h4 {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 2rem;
+    text-align: start;
+    margin-bottom: 20px;
+
+
+}
+
+.spain p {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: start;
+    margin-top: 20px;
+    flex-grow: 1;
+}
+
+.spain ul li {
+    font-size: 1.5rem;
+}
+
+.spain a {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
