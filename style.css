@@ -132,13 +132,13 @@ img {
 .text h3 {
     text-align: start;
     margin-top: 20px;
-    font-family: "Merriweather", serif;
+    font-family: "Danfo", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-variation-settings:
-        "wdth" 100;
-    font-size: 3.5rem;
+        "ELSH" 0;
+    font-size: 3rem;
 }
 
 .text h4 {
