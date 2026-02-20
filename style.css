@@ -101,3 +101,80 @@ img {
     font-size: 2rem;
     margin-top: 20px;
 }
+
+/****** styling af places*****/
+.places {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0 auto;
+}
+
+.image img {
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 1200px;
+    height: auto;
+}
+
+.text h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    border-bottom: 2px solid pink;
+    color: rgb(13, 155, 221);
+}
+
+.text h3 {
+    text-align: start;
+    margin-top: 20px;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 3.5rem;
+}
+
+.text h4 {
+    text-align: start;
+    margin-top: 20px;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 3.5rem;
+}
+
+.text p {
+    text-align: start;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.text ul {
+    list-style-type: none;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.text a {
+    font-size: 4rem;
+}
+
+.text svg {
+    margin-left: 30px;
+    width: 85px;
+    height: 85px;
+}
