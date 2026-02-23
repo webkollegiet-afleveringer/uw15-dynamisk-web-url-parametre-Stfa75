@@ -37,15 +37,22 @@ function renderDestination(data) {
                 ${facilities.map(facility => `<li>${facility}</li>`).join('')}
             </ul>
             
+            <div class="more favorite  heart">
             <a href = index.html> Gå til forsiden</a>
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button class="favorite heart "data-id="${id}">
+            <svg class="img"width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M8 14C8.20072 13.9997 8.39672 13.9391 8.5625 13.8259C11.0184 12.1587 12.0819 11.0156 12.6684 10.3009C13.9184 8.7775 14.5169 7.21344 14.5 5.51969C14.4803 3.57875 12.9231 2 11.0288 2C9.65125 2 8.69719 2.77594 8.14157 3.42219C8.12397 3.44245 8.10222 3.4587 8.0778 3.46984C8.05337 3.48098 8.02685 3.48674 8 3.48674C7.97316 3.48674 7.94663 3.48098 7.92221 3.46984C7.89779 3.4587 7.87604 3.44245 7.85844 3.42219C7.30282 2.77531 6.34875 2 4.97125 2C3.07688 2 1.51969 3.57875 1.5 5.52C1.48313 7.21406 2.08219 8.77813 3.33157 10.3013C3.91813 11.0159 4.98157 12.1591 7.4375 13.8263C7.60332 13.9393 7.79932 13.9998 8 14Z" fill="black"/>
 </svg>
+</button>
 </div>
-    </div>
+     <
+   
 `
     infoSearch.insertAdjacentHTML("afterbegin", destinationString);
     console.log(destinationString);
+    hearts()
+    setHearts()
+
 
 }
 

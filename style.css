@@ -173,8 +173,14 @@ img {
     font-size: 4rem;
 }
 
-.text svg {
+.text button svg {
     margin-left: 30px;
     width: 85px;
     height: 85px;
+}
+
+/* Når knappen (favorite) bliver aktiv, skal stien (path) inde i SVG (.img) blive rød */
+.favorite.active .img path {
+    fill: red;
+
 }
