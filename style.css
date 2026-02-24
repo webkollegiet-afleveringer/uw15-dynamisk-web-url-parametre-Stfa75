@@ -182,5 +182,6 @@ img {
 /* Når knappen (favorite) bliver aktiv, skal stien (path) inde i SVG (.img) blive rød */
 .favorite.active .img path {
     fill: red;
+    stroke: red;
 
 }

@@ -14,7 +14,10 @@ function setHearts() {
         const id = heart.dataset.id
         if (favorites.includes(id)) {
             heart.classList.add("active")
+        } else {
+            heart.classList.remove("active"); // Sikrer at de ikke forbliver røde ved en fejl
         }
+        
 
     })
 
@@ -27,18 +30,18 @@ function hearts() {
 
     heartDom.forEach(btn => {
         btn.addEventListener("click", () => {
-            const id = btn.dataset.id
-            let favorites = getLocalItem("favorites")
+            const id = btn.dataset.id;
+            let favorites = getLocalItem("favorites");
             if (favorites.includes(id)) {
-                favorites = favorites.filter(fav => fav !== id)
-                btn.classList.remove("active")
+                favorites = favorites.filter(fav => fav !== id);
+                btn.classList.remove("active");
             } else {
-                favorites.push(id)
-                btn.classList.add("active")
+                favorites.push(id);
+                btn.classList.add("active");
             }
             setLocalItem("favorites", favorites)
-        })
-    })
+        });
+    }); 
 }
 
 
